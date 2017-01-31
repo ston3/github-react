@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';
 
+import Header from './components/Header';
+import SearchContainer from './containers/SearchContainer';
+
 ReactDOM.render(
-  <App />,
+  <div>
+    <SearchContainer></SearchContainer>
+
+  </div>,
   document.getElementById('root')
 );
